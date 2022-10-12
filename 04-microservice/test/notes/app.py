@@ -59,5 +59,5 @@ def get_bugs(bug_id):
   return {'data': {'bug': bug}}
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=23456)
+    app.run(debug=True, host='notes', port=23456)
 
